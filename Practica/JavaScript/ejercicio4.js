@@ -1,6 +1,6 @@
-// Ejercicio 4 
+// Ejercicio 4 •
 
-// • Crea una función que reciba una frase como cadena y devuelva la palabra más larga: 
+// Crea una función que reciba una frase como cadena y devuelva la palabra más larga: 
 function palabraMasLarga(str) {
     let palabrasFrase = str.split(" ");
     var masLarga = palabrasFrase[0];
@@ -21,4 +21,4 @@ function primeraMayuscula(str) {
     return palabrasConMayus.join(' ');
 }
 
-// Ambas funciones teasteadas con: primeraMayuscula('En un lugar de la Mancha')
+// Ambas funciones testeadas con: primeraMayuscula('En un lugar de la Mancha')
