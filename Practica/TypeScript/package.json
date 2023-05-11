@@ -4,7 +4,8 @@
   "description": "Practica de TypeScript - Miracle Lab",
   "main": "index.js",
   "scripts": {
-    "test": "echo"
+    "test": "echo",
+    "build" : "tsc -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",

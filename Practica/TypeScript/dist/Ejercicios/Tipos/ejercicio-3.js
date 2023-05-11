@@ -2,14 +2,14 @@
 const numbers = [1, 2, 3, [44, 55], 6, [77, 88], 9, 10];
 function flatten(array) {
     const flattened = [];
+    // Lo que entiendo por <T> es que flatten va a detectar o inferir el tipo del parametro que le llega.
+    // Entonces flatten va a ser de tipo array y va a devolver un arreglo.
     for (const element of array) {
         if (Array.isArray(element)) {
-            element; // any[]
             console.log(typeof element);
             flattened.push(...element);
         }
         else {
-            element; // any
             console.log(typeof element);
             flattened.push(element);
         }
