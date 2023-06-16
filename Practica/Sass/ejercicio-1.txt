@@ -1,0 +1,12 @@
+Explique en qué se diferencian el flujo de trabajo con CSS tradicional y con CSS preprocesado.
+
+Las principales diferencias entre el flujo de trabajo con CSS tradicional y con CSS preprocesado son: 
+    1) Variables: Podemos asignarle un valor a una variable y está puede ser utilizada numerosas veces.
+    2) Anidamiento de reglas: En vez de definir reglas por separado, podemos en anidarlas entre ellas, lo cual hace que el código sea más legible.
+    3) Mixins: Son funciones que para aplicar reglas que dependen de parámetros.
+    4) Extensiones: Se pueden heredar propiedades y extenderlas, reutilizando en este caso asignaciones de propiedades.
+    5) Operadores Aritmeticos
+    6) Comentarios de linea: Forman parte del archivo .scss a preprocesar pero no del CSS final.
+
+
+    

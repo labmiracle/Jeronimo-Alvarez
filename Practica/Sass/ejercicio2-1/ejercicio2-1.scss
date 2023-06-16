@@ -1,0 +1,20 @@
+@mixin prefijo($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -ms-box-shadow: $shadow;
+    -o-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+.prueboPrefijo {
+    @include prefijo($shadow: 0 0 5px #000);
+}
+
+@mixin margen {
+    margin: 6px;
+    padding: 6px;
+}
+
+@mixin borde {
+    border: 1px solid;
+}

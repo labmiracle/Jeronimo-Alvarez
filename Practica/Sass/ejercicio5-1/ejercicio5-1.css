@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+button--primary {
+  background-color: lightblue;
+  color: black;
+  padding-inline: 15px;
+  padding-block: 7px;
+  border-radius: 4px;
+}/*# sourceMappingURL=ejercicio5-1.css.map */

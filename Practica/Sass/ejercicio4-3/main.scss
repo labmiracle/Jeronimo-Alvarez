@@ -1,0 +1,6 @@
+@import "mixin.scss";
+
+p {
+    @include textoFondo;
+    text-decoration: underline;
+}

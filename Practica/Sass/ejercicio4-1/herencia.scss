@@ -1,0 +1,10 @@
+.link {
+    border: 1px #f00;
+    background-color: #fdd;
+
+    &--remarcado {
+        @extend .error;
+        border-width: 3px;
+        text-decoration: underline;
+    }
+}

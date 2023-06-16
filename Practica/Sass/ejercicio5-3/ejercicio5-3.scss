@@ -1,0 +1,33 @@
+@function get-day-color($day) {
+    @if $day == Lunes {
+        @return blue;
+    } @else if $day == Martes {
+        @return red;
+    } @else if $day == Miercoles {
+        @return green;
+    } @else if $day == Jueves {
+        @return orange;
+    } @else if $day == Viernes {
+        @return yellow;
+    } @else if $day == Sabado {
+        @return purple;
+    } @else if $day == Domingo {
+        @return pink;
+    } @else {
+        @return gray;
+    }
+}
+
+@mixin day-styles($day) {
+    $color: get-day-color($day);
+
+    &.#{$day} {
+        color: $color;
+    }
+}
+
+@each $day in Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo {
+    .#{$day} {
+        @include day-styles(#{$day});
+    }
+}
